@@ -1,0 +1,28 @@
+# Data Types in Go
+
+- Go is a statically typed language, meaning each variable must be assigned a type and cannot be changed once assigned.
+- Built-in data types:
+  - `bool`: a simple true/false value
+  - String: a collection of characters
+  - Integers (fixed integer types):
+    - Unsigned integers with a specified number of bits (e.g. uint8, uint16)
+    - Assigned integers with a specified number of bits (e.g. int8, int16)
+  - Type aliases:
+  - `byte`: an alias for `uint8`
+  - `unsigned int`, `int`: data types that reflect either 32 or 64 bit values depending on the operating system
+  - `unsigned int pointer`, `int pointer`: pointers to `uint` and `int` values, respectively
+- Floating-point types:
+  - `float32`: a 32-bit floating-point value
+  - `float64`: a 64-bit floating-point value
+- Complex types:
+  - `complex64`: a complex number with 64-bit real and imaginary parts
+  - `complex128`: a complex number with 128-bit real and imaginary parts
+- Built-in data collection types:
+  - Arrays: manage order data collections
+  - Slices: manage order data collections
+  - Maps (dictionaries): manage key-value pairs
+  - Structs: manage aggregations of values
+- Language organization types:
+  - Functions: a type that can be passed as an argument to another function
+  - Interfaces: a type that defines a contract or set of methods
+  - Channels: a type that allows for communication between goroutines
